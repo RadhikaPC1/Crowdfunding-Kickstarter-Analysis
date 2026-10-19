@@ -1,92 +1,61 @@
-# Crowdfunding Kickstarter Analysis
+# 🚀 Kickstarter Crowdfunding Analysis
 
-## Project Overview
-This project analyzes crowdfunding campaign data from Kickstarter to understand the factors that influence campaign success. The analysis focuses on project funding goals, number of backers, and campaign outcomes to identify patterns between successful and failed campaigns. SQL was used to explore and query the dataset, while Excel and Power BI were used for further analysis and visualization.
 
----
 
-## Objectives
-- Analyze crowdfunding campaign performance.
-- Identify factors that influence campaign success.
-- Examine relationships between funding goals, backers, and outcomes.
-- Present insights through interactive dashboards.
+> A data analysis project that uncovers what drives success and failure on Kickstarter, using Excel, Power BI and Tableau.
 
----
 
-## Dataset
-The dataset contains information about crowdfunding projects where each row represents a single project.
 
-### Key Attributes
-- Project category  
-- Funding goal  
-- Amount pledged  
-- Number of backers  
-- Project outcome (successful or failed)  
-- Project creation date  
+## 📌 Introduction
+**Crowdfunding** is the practice of funding a project by raising small amounts of money from a large number of people, typically online. It is a form of crowdsourcing and alternative finance.
 
-Data cleaning was performed before analysis to remove missing values and inconsistencies.
+**Kickstarter** hosts thousands of creative projects (film, music, art, design) at any given time. Funding is **all-or-nothing**: if a project reaches its goal, backers are charged when time expires; if it falls short, no one is charged.
 
----
+This project analyzes Kickstarter project data to understand which factors influence campaign success.
 
-## Tools and Technologies
-- **SQL** – Data querying and exploration  
-- **Excel** – Data cleaning and preprocessing  
-- **Power BI** – Dashboard creation and visualization  
-- **Tableau** – Additional data visualization  
+## 🗂️ Data Overview
+- Each row represents **one crowdfunding project**
+- Fields include **goal amount, amount raised, number of backers and outcome** (successful / failed)
+- **Creation dates** support time-based analysis
+- Data was **cleaned** (missing values and errors removed) before analysis
 
----
+## 🛠️ Tools & Technologies
+| Tool | Purpose |
+|------|---------|
+| **Excel** | Data cleaning and preparation |
+| **Power BI** | Interactive KPI dashboard |
+| **Tableau** | Visual analysis and trends |
 
-## SQL Analysis
-SQL queries were used to explore the dataset and extract insights such as:
 
-- Total number of projects
-- Success vs failure rates
-- Funding trends across categories
-- Average funding goal by project category
-- Backer engagement across campaigns
 
-Example SQL queries included aggregations, filtering, and grouping to identify patterns in campaign performance.
+**Dashboard KPIs:** Total Projects (~374K) · Success Rate **38.35%** · Avg. Duration **31 days** · Total Backers **44.52M** · Amount Raised (~167M)
+**Visuals:** projects by country, projects by outcome, top successful projects, projects by category, with Year / Month / Quarter filters.
 
----
+## 📈 Key Insights
 
-## Key Insights
+### Overall Performance
+- Many projects are created every year, but **only a portion succeed** (about 38%, vs. ~51% failed)
+- Crowdfunding is competitive and success is not guaranteed
+- The **US** accounts for the largest share of projects by a wide margin
 
-### Project Success Rate
-A large number of projects are created each year, but only a portion achieve successful funding, indicating strong competition among campaigns.
+### Funding & Backer Behavior
+- Successful projects raise **significantly more** than failed ones
+- More backers means better chances of success
+- A **small number of top projects** contribute a large share of total funding
 
-### Backer Engagement
-Projects with a higher number of backers tend to have significantly higher chances of reaching their funding goals.
+### Goal Range & Time Trends
+- **Lower goal amounts** have higher success rates; very high goals succeed less often
+- Project creation trends shift across years
+- Choosing the right goal amount is a critical success factor
 
-### Funding Goal Impact
-Projects with lower funding goals generally have higher success rates, while projects with very high goals often fail to reach their target.
+## 💡 Recommendations
+1. Set **realistic, achievable funding goals**
+2. Invest in a strong **project description, visuals and updates** to attract backers
+3. Plan clearly: popular categories help, but planning matters more than category
+4. Pay attention to **launch timing** and engage with backers consistently
 
----
 
-## Recommendations
-- Set realistic funding goals for campaigns.
-- Provide strong project descriptions and visuals to attract backers.
-- Maintain consistent engagement with supporters.
-- Plan campaign launch timing carefully.
 
----
+## 🔗 Conclusion
+Crowdfunding platforms host many projects, but not all succeed. Success depends on goal amount, planning and creator effort. The dashboards make performance easy to track and can help future creators improve their odds.
 
-## Conclusion
-Crowdfunding platforms host a large number of projects, but success depends on factors such as funding goals, backer engagement, and campaign planning. Data analysis using SQL, Excel, and Power BI helped identify key trends and insights that can support better decision-making for future campaigns.
-
----
-
-## Project Files
-
-Due to GitHub file size limitations, the full project files including dataset, SQL queries, and dashboards are available in the Google Drive folder below.
-
-[Download Project Files](https://drive.google.com/drive/folders/1aMpwLn4i5zUrHSrI3NZ63t19qPrXckj0?usp=drive_link)
-
----
-
-## Skills Demonstrated
-- SQL Data Querying
-- Data Cleaning
-- Exploratory Data Analysis
-- Data Visualization
-- Dashboard Development
-- Business Insight Generation
